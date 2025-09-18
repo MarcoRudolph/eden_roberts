@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Heart, MessageCircle, Share2, Play, Image, Video, Calendar, Eye } from 'lucide-react'
+import { Heart, MessageCircle, Play, Image, Calendar, Eye } from 'lucide-react'
 
 const ContentShowcase: React.FC = () => {
   const featuredPosts = [

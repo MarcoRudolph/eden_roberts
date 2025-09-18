@@ -1,4 +1,3 @@
-import React from 'react'
 import './lib/i18n'
 import InfluencerPage from './components/InfluencerPage'
 import Navigation from './components/Navigation'
