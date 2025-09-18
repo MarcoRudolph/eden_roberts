@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "welcome": "Willkommen in meiner Welt.",
+    "name": "Ich bin Eden Roberts,",
+    "subtitle": "dein KI-Begleiter",
+    "description": "für Inspiration und",
+    "connection": "Verbindung",
+    "ctaButton": "Corianuge"
+  },
+  "navigation": {
+    "home": "HOME",
+    "outfits": "OUTFITS",
+    "fashion": "FASHION",
+    "travel": "TRAVEL",
+    "about": "ABOUT"
+  },
+  "about": {
+    "title": "Über mich",
+    "description1": "Ich bin Eden und mache gerne was Spaß macht. Nach meiner Ausbildung zur Marketingkauffrau habe ich das Reisen für mich entdeckt. Ich bin in der glücklichen Lage mir viele Wünsche zu erfüllen und lasse meine Follower gerne teilhaben.",
+    "description2": "Ich halte Ausschau nach Engagements und Kollaborationen. Also wenn ihr interessiert seid, meldet euch einfach."
+  },
+  "social": {
+    "title": "Wo du mich finden kannst",
+    "instagram": {
+      "name": "Instagram",
+      "description": "Folge mir für tägliche Inspiration, Einblicke hinter die Kulissen und exklusive Updates!"
+    },
+    "tiktok": {
+      "name": "TikTok",
+      "description": "Schaue dir meine kreativen Videos, Trends und ansprechenden Inhalte auf TikTok an!"
+    }
+  },
+  "footer": {
+    "privacy": "Datenschutz",
+    "terms": "Impressum"
+  }
+}

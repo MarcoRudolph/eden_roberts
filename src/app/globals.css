@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+/* Custom utilities for modern design */
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Handwriting font */
+.font-handwriting {
+  font-family: 'Dancing Script', cursive;
+}
+
+@theme {
+  /* Shadcn UI Colors */
+  --color-background: 0 0% 100%;
+  --color-foreground: 222.2 84% 4.9%;
+  --color-card: 0 0% 100%;
+  --color-card-foreground: 222.2 84% 4.9%;
+  --color-popover: 0 0% 100%;
+  --color-popover-foreground: 222.2 84% 4.9%;
+  --color-primary: 221.2 83.2% 53.3%;
+  --color-primary-foreground: 210 40% 98%;
+  --color-secondary: 210 40% 96%;
+  --color-secondary-foreground: 222.2 84% 4.9%;
+  --color-muted: 210 40% 96%;
+  --color-muted-foreground: 215.4 16.3% 46.9%;
+  --color-accent: 210 40% 96%;
+  --color-accent-foreground: 222.2 84% 4.9%;
+  --color-destructive: 0 84.2% 60.2%;
+  --color-destructive-foreground: 210 40% 98%;
+  --color-border: 214.3 31.8% 91.4%;
+  --color-input: 214.3 31.8% 91.4%;
+  --color-ring: 221.2 83.2% 53.3%;
+  --radius: 0.5rem;
+  
+  /* Custom Theme Colors */
+  --color-primary-50: #FFF4E8;
+  --color-primary-100: #FFE1CC;
+  --color-primary-500: #FF6B00;
+  --color-primary-600: #E65F00;
+  --color-primary-900: #732E00;
+  --color-neutral-50: #0F0F0F;
+  --color-neutral-75: #141414;
+  --color-neutral-100: #1A1A1A;
+  --color-neutral-200: #222222;
+  --color-neutral-300: #2B2B2B;
+  --color-neutral-400: #6B6B6B;
+  --color-neutral-500: #9A9A9A;
+  --color-neutral-700: #D1D1D1;
+  --color-neutral-800: #E5E5E5;
+  --color-neutral-900: #FFFFFF;
+  --color-accent-blue: #2DB4FF;
+  --color-influencer-pink-50: #FDF2F8;
+  --color-influencer-pink-100: #FCE7F3;
+  --color-influencer-pink-200: #FBCFE8;
+  --color-influencer-pink-300: #F9A8D4;
+  --color-influencer-pink-400: #F472B6;
+  --color-influencer-pink-500: #EC4899;
+  --color-influencer-pink-600: #DB2777;
+  --color-influencer-pink-700: #BE185D;
+  --color-influencer-pink-800: #9D174D;
+  --color-influencer-pink-900: #831843;
+  --color-influencer-purple-50: #FAF5FF;
+  --color-influencer-purple-100: #F3E8FF;
+  --color-influencer-purple-200: #E9D5FF;
+  --color-influencer-purple-300: #D8B4FE;
+  --color-influencer-purple-400: #C084FC;
+  --color-influencer-purple-500: #A855F7;
+  --color-influencer-purple-600: #9333EA;
+  --color-influencer-purple-700: #7C3AED;
+  --color-influencer-purple-800: #6B21A8;
+  --color-influencer-purple-900: #581C87;
+  
+  /* Dark mode colors */
+  --color-dark-background: 222.2 84% 4.9%;
+  --color-dark-foreground: 210 40% 98%;
+  --color-dark-card: 222.2 84% 4.9%;
+  --color-dark-card-foreground: 210 40% 98%;
+  --color-dark-popover: 222.2 84% 4.9%;
+  --color-dark-popover-foreground: 210 40% 98%;
+  --color-dark-primary: 217.2 91.2% 59.8%;
+  --color-dark-primary-foreground: 222.2 84% 4.9%;
+  --color-dark-secondary: 217.2 32.6% 17.5%;
+  --color-dark-secondary-foreground: 210 40% 98%;
+  --color-dark-muted: 217.2 32.6% 17.5%;
+  --color-dark-muted-foreground: 215 20.2% 65.1%;
+  --color-dark-accent: 217.2 32.6% 17.5%;
+  --color-dark-accent-foreground: 210 40% 98%;
+  --color-dark-destructive: 0 62.8% 30.6%;
+  --color-dark-destructive-foreground: 210 40% 98%;
+  --color-dark-border: 217.2 32.6% 17.5%;
+  --color-dark-input: 217.2 32.6% 17.5%;
+  --color-dark-ring: 224.3 76.3% 94.1%;
+}

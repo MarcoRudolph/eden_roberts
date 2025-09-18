@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "welcome": "Welcome to my World.",
+    "name": "I'm Eden Roberts,",
+    "subtitle": "your AI companion",
+    "description": "for inspiration and",
+    "connection": "connection",
+    "ctaButton": "Corianuge"
+  },
+  "navigation": {
+    "home": "HOME",
+    "outfits": "OUTFITS",
+    "fashion": "FASHION",
+    "travel": "TRAVEL",
+    "about": "ABOUT"
+  },
+  "about": {
+    "title": "About",
+    "description1": "I'm Eden and I love doing what makes me happy. After my training as a marketing assistant, I discovered traveling for myself. I'm in the fortunate position to fulfill many wishes and I like to let my followers participate.",
+    "description2": "I'm looking for engagements and collaborations. So if you're interested, just get in touch."
+  },
+  "social": {
+    "title": "Where you can find me",
+    "instagram": {
+      "name": "Instagram",
+      "description": "Follow me for daily inspiration, behind-the-scenes content, and exclusive updates!"
+    },
+    "tiktok": {
+      "name": "TikTok",
+      "description": "Check out my creative videos, trends, and engaging content on TikTok!"
+    }
+  },
+  "footer": {
+    "privacy": "Privacy",
+    "terms": "Terms of Use"
+  }
+}
