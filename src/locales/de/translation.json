@@ -33,5 +33,57 @@
   "footer": {
     "privacy": "Datenschutz",
     "terms": "Impressum"
+  },
+  "impressum": {
+    "backToHome": "Zurück zur Startseite",
+    "title": "Impressum",
+    "subtitle": "Rechtliche Informationen und Kontaktdaten",
+    "legalInfo": "Rechtliche Informationen",
+    "companyInfo": {
+      "title": "Angaben gemäß § 5 TMG",
+      "name": "Name",
+      "description": "Beschreibung",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "E-Mail"
+    },
+    "professional": {
+      "title": "Berufsbezeichnung und berufsrechtliche Regelungen",
+      "profession": "Berufsbezeichnung",
+      "location": "Zuständige Kammer"
+    },
+    "insurance": {
+      "title": "Berufshaftpflichtversicherung",
+      "insurer": "Versicherer",
+      "coverage": "Geltungsraum"
+    },
+    "content": {
+      "title": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV"
+    },
+    "dispute": {
+      "title": "Streitschlichtung",
+      "content": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Unsere E-Mail-Adresse finden Sie oben im Impressum.",
+      "emailNote": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+    },
+    "consumerDispute": {
+      "title": "Verbraucherstreitbeilegung/Universalschlichtungsstelle",
+      "content": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+    },
+    "dsa": {
+      "title": "Anbieterkennzeichnung nach Art. 5 Abs. 1 lit. a DSA",
+      "description": "Anbieter dieser Website ist Marco Rudolph, No de Halloh 8a, 25591 Ottenbüttel, Deutschland.",
+      "languages": "Sprachen:"
+    },
+    "disclaimer": {
+      "title": "Haftung für Inhalte",
+      "content": "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht unter der Verpflichtung, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.",
+      "additional": "Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Bei Fragen zu dieser Website können Sie uns gerne kontaktieren:",
+      "email": "E-Mail",
+      "phone": "Telefon"
+    }
   }
 }

@@ -7,7 +7,11 @@ import AboutSection from './AboutSection'
 import SocialLinks from './SocialLinks'
 import Footer from './Footer'
 
-const InfluencerPage: React.FC = () => {
+interface InfluencerPageProps {
+  onNavigate?: (page: string) => void
+}
+
+const InfluencerPage: React.FC<InfluencerPageProps> = ({ onNavigate }) => {
   return (
     <div className="min-h-screen bg-white">
       <HeroSection />
@@ -16,7 +20,7 @@ const InfluencerPage: React.FC = () => {
       <FashionSection />
       <TravelSection />
       <SocialLinks />
-      <Footer />
+      <Footer onNavigate={onNavigate} />
     </div>
   )
 }

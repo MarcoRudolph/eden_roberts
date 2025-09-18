@@ -33,5 +33,57 @@
   "footer": {
     "privacy": "Privacy",
     "terms": "Terms of Use"
+  },
+  "impressum": {
+    "backToHome": "Back to Home",
+    "title": "Impressum",
+    "subtitle": "Legal information and contact details",
+    "legalInfo": "Legal Information",
+    "companyInfo": {
+      "title": "Information according to § 5 TMG",
+      "name": "Name",
+      "description": "Description",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "professional": {
+      "title": "Professional designation and professional regulations",
+      "profession": "Professional designation",
+      "location": "Responsible chamber"
+    },
+    "insurance": {
+      "title": "Professional liability insurance",
+      "insurer": "Insurer",
+      "coverage": "Scope of coverage"
+    },
+    "content": {
+      "title": "Responsible for content according to § 55 para. 2 RStV"
+    },
+    "dispute": {
+      "title": "Dispute resolution",
+      "content": "The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/. You can find our email address above in the imprint.",
+      "emailNote": "We are not willing or obligated to participate in dispute resolution procedures before a consumer arbitration board."
+    },
+    "consumerDispute": {
+      "title": "Consumer dispute resolution/Universal arbitration board",
+      "content": "We are not willing or obligated to participate in dispute resolution procedures before a consumer arbitration board."
+    },
+    "dsa": {
+      "title": "Provider identification according to Art. 5 para. 1 lit. a DSA",
+      "description": "Provider of this website is Marco Rudolph, No de Halloh 8a, 25591 Ottenbüttel, Germany.",
+      "languages": "Languages:"
+    },
+    "disclaimer": {
+      "title": "Liability for content",
+      "content": "As a service provider, we are responsible for our own content on these pages according to general laws pursuant to § 7 para. 1 TMG. According to §§ 8 to 10 TMG, however, we as a service provider are not under any obligation to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.",
+      "additional": "Obligations to remove or block the use of information according to general laws remain unaffected. However, liability in this regard is only possible from the time of knowledge of a concrete legal violation. Upon becoming aware of corresponding legal violations, we will remove this content immediately."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "If you have any questions about this website, please feel free to contact us:",
+      "email": "Email",
+      "phone": "Phone"
+    }
   }
 }
