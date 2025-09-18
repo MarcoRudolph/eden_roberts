@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './lib/i18n'
 import InfluencerPage from './components/InfluencerPage'
 import ImpressumPage from './components/ImpressumPage'
+import DatenschutzPage from './components/DatenschutzPage'
 import Navigation from './components/Navigation'
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
     switch (currentPage) {
       case 'impressum':
         return <ImpressumPage />
+      case 'privacy':
+        return <DatenschutzPage />
       default:
         return <InfluencerPage onNavigate={setCurrentPage} />
     }
