@@ -50,7 +50,7 @@ const ImpressumPage: React.FC<ImpressumPageProps> = ({ onNavigate }) => {
                   </h2>
                   <div className="space-y-3 text-gray-600">
                     <p><strong>{t('impressum.companyInfo.name')}:</strong> Marco Rudolph</p>
-                    <p><strong>{t('impressum.companyInfo.description')}:</strong> Rudolpho-AI. KI-Partner für automatisierte Workflows, authentische Influencer Kampagnen und nutzerzentrierte Web-Erlebnisse.</p>
+                    <p><strong>{t('impressum.companyInfo.description')}:</strong> {t('impressum.companyInfo.companyDescription')}</p>
                     <p><strong>{t('impressum.companyInfo.address')}:</strong> No de Halloh 8a, 25591 Ottenbüttel</p>
                     <p><strong>{t('impressum.companyInfo.phone')}:</strong> 015116321085</p>
                     <p><strong>{t('impressum.companyInfo.email')}:</strong> marcorudolph09@proton.me</p>
