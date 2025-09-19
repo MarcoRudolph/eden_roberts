@@ -13,7 +13,7 @@ interface InfluencerPageProps {
 
 const InfluencerPage: React.FC<InfluencerPageProps> = ({ onNavigate }) => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white pt-24">
       <div id="top" />
       <HeroSection />
       <AboutSection />

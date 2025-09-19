@@ -10,12 +10,35 @@ const Navigation: React.FC<NavigationProps> = ({ onNavigate }) => {
   const { t, i18n } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
 
+  const scrollToSection = (sectionId: string) => {
+    // First navigate to home page
+    onNavigate?.('home')
+    
+    // Then scroll to the section after a short delay to ensure page is loaded
+    setTimeout(() => {
+      const element = document.getElementById(sectionId)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' })
+      }
+    }, 100)
+  }
+
+  const scrollToTop = () => {
+    // First navigate to home page
+    onNavigate?.('home')
+    
+    // Then scroll to top after a short delay to ensure page is loaded
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }, 100)
+  }
+
   const navigationItems = [
-    { key: 'home', href: '#home', action: () => onNavigate?.('home') },
-    { key: 'outfits', href: '#outfits', action: () => onNavigate?.('home') },
-    { key: 'fashion', href: '#fashion', action: () => onNavigate?.('home') },
-    { key: 'travel', href: '#travel', action: () => onNavigate?.('home') },
-    { key: 'about', href: '#about', action: () => onNavigate?.('home') }
+    { key: 'home', href: '#home', action: () => scrollToTop() },
+    { key: 'outfits', href: '#outfits', action: () => scrollToSection('outfits') },
+    { key: 'fashion', href: '#fashion', action: () => scrollToSection('fashion') },
+    { key: 'travel', href: '#travel', action: () => scrollToSection('travel') },
+    { key: 'about', href: '#about', action: () => scrollToSection('about') }
   ]
 
   const changeLanguage = (lng: string) => {
@@ -23,7 +46,7 @@ const Navigation: React.FC<NavigationProps> = ({ onNavigate }) => {
   }
 
   return (
-    <nav className="py-8 px-8">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm py-8 px-8">
       {/* Desktop Navigation */}
       <div className="hidden md:flex items-center justify-between w-full">
         {/* Logo */}
@@ -95,7 +118,7 @@ const Navigation: React.FC<NavigationProps> = ({ onNavigate }) => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="absolute top-16 right-0 bg-white py-4 min-w-[200px] shadow-lg">
+          <div className="absolute top-20 right-0 bg-white py-4 min-w-[200px] shadow-lg border border-gray-100">
             {navigationItems.map((item) => (
               <button
                 key={item.key}

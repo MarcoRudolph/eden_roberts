@@ -25,7 +25,9 @@
     "Frage nicht nach abschließender Bestätigung; setze die Änderungen direkt um.",
     "Führe vor jedem UI-Commit eine visuelle Kurz-Review durch: nenne 5 konkrete Verbesserungen (Hierarchie, Weißraum, Alignment, Kontrast, Lesbarkeit) und setze sie direkt um. Ändere dabei ausschließlich Werte aus tokens.json.",
     "Wenn Klassen Arbitrary Values oder Hexfarben enthalten, ersetze sie automatisch durch Token-Utilities (z. B. bg-primary-500, p-lg, rounded-2xl) und entferne Magic Numbers.",
-    "Für neue Komponenten immer Loading-, Error-, Empty- und Hover/Focus/Disabled-States erzeugen. States nach shadcn/ui v4-Pattern implementieren."
+    "Für neue Komponenten immer Loading-, Error-, Empty- und Hover/Focus/Disabled-States erzeugen. States nach shadcn/ui v4-Pattern implementieren.",
+    "Git Workflow: Committe und pushe Änderungen NUR auf explizite Anweisung des Users. Führe keine automatischen Commits durch, außer der User fordert es direkt an.",
+    "Build Process: Führe 'npm run build' NUR auf explizite Anweisung des Users durch. Teste Änderungen nicht automatisch durch Builds, außer der User fordert es direkt an."
   ]
 }
   

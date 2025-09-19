@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { ArrowLeft } from 'lucide-react'
@@ -10,8 +10,12 @@ interface ImpressumPageProps {
 const ImpressumPage: React.FC<ImpressumPageProps> = ({ onNavigate }) => {
   const { t } = useTranslation()
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [])
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50">
+    <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50 pt-24">
       {/* Header Section */}
       <div className="bg-gradient-to-r from-pink-100/80 to-purple-100/80 backdrop-blur-sm border-b border-pink-100/20">
         <div className="container mx-auto px-4 py-16">
