@@ -16,7 +16,13 @@ export default defineConfig({
     assetsDir: 'assets',
     rollupOptions: {
       output: {
-        assetFileNames: 'assets/[name]-[hash][extname]',
+        assetFileNames: (assetInfo) => {
+          // Keep images in their original structure, other assets in assets folder
+          if (assetInfo.name && /\.(png|jpe?g|gif|svg|webp|mp4)$/i.test(assetInfo.name)) {
+            return 'img/[name][extname]'
+          }
+          return 'assets/[name]-[hash][extname]'
+        },
         chunkFileNames: 'assets/[name]-[hash].js',
         entryFileNames: 'assets/[name]-[hash].js',
       },
