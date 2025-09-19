@@ -3,7 +3,11 @@ import { useTranslation } from 'react-i18next'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { ArrowLeft, Download } from 'lucide-react'
 
-const DatenschutzPage: React.FC = () => {
+interface DatenschutzPageProps {
+  onNavigate?: (page: string) => void
+}
+
+const DatenschutzPage: React.FC<DatenschutzPageProps> = ({ onNavigate }) => {
   const { t } = useTranslation()
 
   return (
@@ -12,13 +16,13 @@ const DatenschutzPage: React.FC = () => {
       <div className="bg-gradient-to-r from-pink-100/80 to-purple-100/80 backdrop-blur-sm border-b border-pink-100/20">
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto text-center">
-            <a 
-              href="/#top" 
+            <button 
+              onClick={() => onNavigate?.('home')}
               className="inline-flex items-center gap-2 text-purple-600 hover:text-purple-700 transition-colors mb-6"
             >
               <ArrowLeft className="w-4 h-4" />
               {t('privacy.backToHome')}
-            </a>
+            </button>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600 mb-4">
               {t('privacy.title')}
             </h1>

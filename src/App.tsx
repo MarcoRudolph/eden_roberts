@@ -11,9 +11,9 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'impressum':
-        return <ImpressumPage />
+        return <ImpressumPage onNavigate={setCurrentPage} />
       case 'privacy':
-        return <DatenschutzPage />
+        return <DatenschutzPage onNavigate={setCurrentPage} />
       default:
         return <InfluencerPage onNavigate={setCurrentPage} />
     }
